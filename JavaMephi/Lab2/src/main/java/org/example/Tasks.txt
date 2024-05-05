@@ -1,0 +1,66 @@
+Task2
+Scanner.nextInt - модифицирующий метод, потому что работает с полями сканера и изменяет их
+Random.nextInt - метод доступа, так как не изменяет состояние объекта
+
+Task3
+Можно создать модифицируюющий метод, например setter, который возвращает boolean, которая будет обозначать
+успех или неудачу модификации
+Можно создать метод доступа, который будет возвращать void, например функция распечатать массив
+
+Task 4
+Потому что переменные в метод передаются по значению, а указателей в java нет
+Так и с Integer, поменять местами значения не получится, так как переменные передаются в метод по значению,
+но вне метода это можно сделать
+Можно сделать с помощью AtomicReference
+IntHolder удалили
+Конструкторы Integer тоже устарели
+
+Task 8
+Имеются
+
+Task 11
+Переписал?
+
+Task 12
+Файл класса получил в каталоге откуда вызывал javac
+
+java Task12:
+Error: Could not find or load main class Task12
+Caused by: java.lang.NoClassDefFoundError: Task12 (wrong name: ch01/sec01/Task12)
+
+javap Task12
+Warning: File .\Task12.class does not contain class Task12
+Compiled from "Task12.java"
+public class ch01.sec01.Task12 {
+  public ch01.sec01.Task12();
+  public static void main(java.lang.String[]);
+}
+
+javac -d . Task12.java
+Создал указаанную папку и засунул туда Task12.class
+
+
+Task 14
+Compiled from "Network.java"
+public class org.example.Network {
+  private java.util.ArrayList<org.example.Network$Member> members;
+  public org.example.Network();
+  public org.example.Network$Member enroll(java.lang.String);
+}
+
+
+        String message;
+//        double X = distanceX;
+//        double Y = distanceY;
+//        do {
+//            message = moveX(distanceX / 1000);
+//            if (message.equals("Success")) {
+                  X -= distanceX / 1000;
+//                message = moveY(distanceY / 1000);
+                  if (message.equals("Success")) {
+//                  Y -= distanceY / 1000;
+                  }
+//            }
+//        }while (message.equals("Success") && (Math.abs(X) >0.00001 || Math.abs(Y) >0.00001));
+//        return message;
+

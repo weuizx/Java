@@ -1,0 +1,15 @@
+3. String : Serializable
+            Comparable<String>
+            CharSequence
+            Constable
+            ConstantDesc
+
+   Scanner: Iterator<String>
+            Closeable
+                AutoCloseable
+
+   ImageOutputStream : ImageInputStream
+                           DataInput
+                           Closeable
+                               AutoCloseable
+                       DataOutput
