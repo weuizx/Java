@@ -1,4 +1,4 @@
-package org.example;
+package org.example.y2024.spring;
 
 import java.util.ArrayList;
 import java.util.Scanner;

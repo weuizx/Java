@@ -2,7 +2,8 @@ package org.example;
 
 import java.util.*;
 
-public class Tests {
+public class JavaCoreKnowledgeTest {
+
 	public static void test1() {
 		boolean b = (!(true) && !(false));
 		System.out.println(b);

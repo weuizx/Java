@@ -1,4 +1,4 @@
-package org.example;
+package org.example.y2024.spring;
 import java.io.InputStream;
 import java.util.Scanner;
 
